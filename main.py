@@ -12,9 +12,6 @@ def PosOrNeg(n):
     else:
         return 'Neutral Statement'
 
-
-
-
 # # All the stuff inside your window.
 layout = [[sg.Text('Enter the text to Analyze'), sg.InputText()],
             [sg.Button('Ok'), sg.Button('Cancel')] ]
